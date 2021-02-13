@@ -4,10 +4,10 @@ function Call(){
     
     }
     
-    function Warning(){
+function Warning(){
     
-        alert("Call me here");
+    alert("Call me here");
         
-    }
+}
     
     
