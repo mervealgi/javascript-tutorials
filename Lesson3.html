@@ -9,7 +9,9 @@
     <div id="result"></div>  <!-- if we don t write this html item, doesn t display anything on browser -->
     <div id="result2"></div>
     <div id="result3"></div>
-    
+
+    <div id="result4"></div>
+    <button type="button" onclick="getFunction()">Get Function Result</button>    
     <script>
         document.getElementById('result').innerHTML=70*2;  //integer 
         document.getElementById('result2').innerHTML="string değeri"; //string
@@ -18,6 +20,13 @@
         var data;
         data = 5;
         document.getElementById('result3').innerHTML = data;   //declaring a variable
+
+
+        function getFunction(){
+            var One = 5 ;
+            var Two = 8 ;
+            document.getElementById("result4").innerHTML = One*Two;
+        }
 
     </script>
 
